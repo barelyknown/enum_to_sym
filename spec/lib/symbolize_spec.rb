@@ -1,6 +1,6 @@
 require "spec_helper"
 
-EnumToSym
+module EnumToSym
   describe Symbolize do
 
     subject do
