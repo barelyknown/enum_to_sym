@@ -14,7 +14,7 @@ end
 
 ```
 
-This gem changes that behavior so that enum columns return a symbol instead.
+This gem changes that behavior so that enum attributes return symbols instead.
 
 ```ruby
 class Foo < ActiveRecord::Base
