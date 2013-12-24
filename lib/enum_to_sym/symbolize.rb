@@ -8,7 +8,7 @@ module EnumToSym
 
         definitions.each do |name, values|
           define_method name do |*args|
-            super(*args).to_sym
+            super(*args).try :to_sym
           end
         end
 
