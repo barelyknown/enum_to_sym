@@ -2,7 +2,7 @@
 
 Ruby on Rails [added support for enum columns](http://edgeguides.rubyonrails.org/4_1_release_notes.html) in ActiveRecord in version 4.1.
 
-Unfortunately, the return value of an enum attribute is a string which seems inconsistent with the rest of the feature.
+Unfortunately, the return value of an enum attribute is a string which seems inconsistent with the rest of the feature and [it's not clear if this will get changed](https://github.com/rails/rails/pull/13448).
 
 ```ruby
 class Foo < ActiveRecord::Base
