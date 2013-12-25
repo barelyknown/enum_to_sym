@@ -14,7 +14,7 @@ end
 
 ```
 
-This gem changes that behavior so that enum attributes return symbols instead.
+This gem changes that behavior so that enum attributes return symbols instead. It also adds an `is?(name)` method as an alternative based on a [comment made in this thread](https://github.com/rails/rails/pull/13448).
 
 ```ruby
 class Foo < ActiveRecord::Base
@@ -23,6 +23,7 @@ end
 
 > foo = Foo.new(status: :bar)
 > foo.status  # => :bar 👍
+> foo.is?(:bar) # => true
 
 ```
 
