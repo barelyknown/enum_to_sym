@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    enum_to_sym (1.0.1)
+    enum_to_sym (1.0.2)
       rails (>= 4.1.0.beta1)
 
 GEM
